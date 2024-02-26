@@ -46,6 +46,6 @@ function onFormSubmit(e){
     console.log(formData);
     form.reset();  
 
-    localStorage.removeItem(STORAGE_KEY);
+    localStorage.removeItem(STORAGE_KEY);//last
 }
 
